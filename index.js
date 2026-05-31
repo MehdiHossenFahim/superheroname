@@ -1840,9 +1840,9 @@ return superHero_name;
 
 $("button").on( "click", function() {
 $("img").animate({
-    left: '150px',
-    height: '300px',
-    width: '300px'
+    left: '100px',
+    height: '200px',
+    width: '200px'
   }, "slow");
   $("h1").html("You are <em class=\"text-danger\">"+generateName()+"</em> !");
 $("p").html("Didn't like it? Press <em>'try again!'</em> to generate again.")
