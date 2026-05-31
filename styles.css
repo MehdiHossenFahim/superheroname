@@ -8,23 +8,20 @@ body {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.919), rgba(231, 231, 231, 0.941)),
     url("./assets/images/bg_img.jpg");
-  /* background-repeat: repeat; */
-  background-size: cover;
-}
-body {
-  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.919), rgba(231, 231, 231, 0.941)),
+    url("./assets/images/bg_img.jpg");
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  background-size: cover;
 }
-/* From https://css.glass */
+
 .glass-effect {
   background: rgba(184, 184, 184, 0.036);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.308);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(6.2px);
   border: 1px solid rgba(255, 255, 255, 0.03);
-}
-.container {
-  flex: 1;
 }
