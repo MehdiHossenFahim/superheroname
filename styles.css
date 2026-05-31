@@ -11,6 +11,11 @@ body {
   /* background-repeat: repeat; */
   background-size: cover;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 /* From https://css.glass */
 .glass-effect {
   background: rgba(184, 184, 184, 0.036);
@@ -19,4 +24,7 @@ body {
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(6.2px);
   border: 1px solid rgba(255, 255, 255, 0.03);
+}
+.container {
+  flex: 1;
 }
